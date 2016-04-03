@@ -25,6 +25,7 @@ class SettingsViewController: UIViewController, UITextFieldDelegate{
         if(Model.sharedInstance.defaultTicker != sender.text!){
             for algorithm in Model.sharedInstance.algorithms{
                 algorithm.needsReload = true
+                algorithm.reload()
             }
         }
         Model.sharedInstance.defaultTicker = sender.text!
