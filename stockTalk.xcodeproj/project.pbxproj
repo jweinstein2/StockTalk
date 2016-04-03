@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		891CE7D91CB0BAA20010ED9C /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CE7D81CB0BAA20010ED9C /* LoadingViewController.swift */; };
 		89299E3C1CB05C7300DCDD3F /* AddWatchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89299E3B1CB05C7300DCDD3F /* AddWatchTableViewController.swift */; };
 		893146DD1CAF6BA1001A2B44 /* AlgorithmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893146DC1CAF6BA1001A2B44 /* AlgorithmsTableViewController.swift */; };
 		893146DF1CAF6C11001A2B44 /* AlgorithmsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893146DE1CAF6C11001A2B44 /* AlgorithmsNavigationController.swift */; };
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		891CE7D81CB0BAA20010ED9C /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		89299E3B1CB05C7300DCDD3F /* AddWatchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddWatchTableViewController.swift; path = ../AddWatchTableViewController.swift; sourceTree = "<group>"; };
 		893146DC1CAF6BA1001A2B44 /* AlgorithmsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmsTableViewController.swift; sourceTree = "<group>"; };
 		893146DE1CAF6C11001A2B44 /* AlgorithmsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmsNavigationController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		893146DA1CAF6A6F001A2B44 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				891CE7D81CB0BAA20010ED9C /* LoadingViewController.swift */,
 				89299E3B1CB05C7300DCDD3F /* AddWatchTableViewController.swift */,
 				893146DC1CAF6BA1001A2B44 /* AlgorithmsTableViewController.swift */,
 				898DA9CA1CAFA37200C9D854 /* WatchTableViewController.swift */,
@@ -385,6 +388,7 @@
 				893146DD1CAF6BA1001A2B44 /* AlgorithmsTableViewController.swift in Sources */,
 				898DA9AE1CAF8AE100C9D854 /* Parameter.swift in Sources */,
 				898DA9BF1CAF927500C9D854 /* BEMAverageLine.m in Sources */,
+				891CE7D91CB0BAA20010ED9C /* LoadingViewController.swift in Sources */,
 				898DA9CB1CAFA37200C9D854 /* WatchTableViewController.swift in Sources */,
 				89EC06511CAF84C4000CD0E4 /* ParameterCell.swift in Sources */,
 			);
