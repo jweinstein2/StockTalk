@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89299E3C1CB05C7300DCDD3F /* AddWatchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89299E3B1CB05C7300DCDD3F /* AddWatchTableViewController.swift */; };
+		893146DD1CAF6BA1001A2B44 /* AlgorithmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893146DC1CAF6BA1001A2B44 /* AlgorithmsTableViewController.swift */; };
+		893146DF1CAF6C11001A2B44 /* AlgorithmsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893146DE1CAF6C11001A2B44 /* AlgorithmsNavigationController.swift */; };
 		89829BE81CAF579A00BC28C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89829BE71CAF579A00BC28C1 /* AppDelegate.swift */; };
-		89829BEA1CAF579A00BC28C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89829BE91CAF579A00BC28C1 /* ViewController.swift */; };
 		89829BED1CAF579A00BC28C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89829BEB1CAF579A00BC28C1 /* Main.storyboard */; };
 		89829BF01CAF579A00BC28C1 /* cornStock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89829BEE1CAF579A00BC28C1 /* cornStock.xcdatamodeld */; };
 		89829BF21CAF579B00BC28C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89829BF11CAF579B00BC28C1 /* Assets.xcassets */; };
 		89829BF51CAF579B00BC28C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89829BF31CAF579B00BC28C1 /* LaunchScreen.storyboard */; };
 		89829C001CAF579B00BC28C1 /* cornStockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89829BFF1CAF579B00BC28C1 /* cornStockTests.swift */; };
 		89829C0B1CAF579B00BC28C1 /* cornStockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89829C0A1CAF579B00BC28C1 /* cornStockUITests.swift */; };
+		898DA9AE1CAF8AE100C9D854 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DA9AD1CAF8AE100C9D854 /* Parameter.swift */; };
+		898DA9BF1CAF927500C9D854 /* BEMAverageLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 898DA9B61CAF927500C9D854 /* BEMAverageLine.m */; };
+		898DA9C01CAF927500C9D854 /* BEMCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 898DA9B81CAF927500C9D854 /* BEMCircle.m */; };
+		898DA9C11CAF927500C9D854 /* BEMLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 898DA9BA1CAF927500C9D854 /* BEMLine.m */; };
+		898DA9C21CAF927500C9D854 /* BEMPermanentPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 898DA9BC1CAF927500C9D854 /* BEMPermanentPopupView.m */; };
+		898DA9C31CAF927500C9D854 /* BEMSimpleLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 898DA9BE1CAF927500C9D854 /* BEMSimpleLineGraphView.m */; };
+		898DA9C61CAF9CBB00C9D854 /* DataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DA9C51CAF9CBB00C9D854 /* DataDownloader.swift */; };
+		898DA9C81CAFA18700C9D854 /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DA9C71CAFA18700C9D854 /* Watch.swift */; };
+		898DA9CB1CAFA37200C9D854 /* WatchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DA9CA1CAFA37200C9D854 /* WatchTableViewController.swift */; };
+		898DA9CD1CB0451C00C9D854 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DA9CC1CB0451C00C9D854 /* CustomViewController.swift */; };
+		89C7D5521CAF6E9400441057 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7D5511CAF6E9400441057 /* Model.swift */; };
+		89C7D5551CAF6F2600441057 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7D5541CAF6F2600441057 /* Algorithm.swift */; };
+		89C7D5571CAF70F700441057 /* Algorithm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C7D5561CAF70F700441057 /* Algorithm.storyboard */; };
+		89C7D55B1CAF727600441057 /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7D55A1CAF727600441057 /* AlgorithmViewController.swift */; };
+		89C7D55D1CAF7CB100441057 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C7D55C1CAF7CB100441057 /* Add.storyboard */; };
+		89C7D55F1CAF7D7E00441057 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7D55E1CAF7D7E00441057 /* AddViewController.swift */; };
+		89EC06511CAF84C4000CD0E4 /* ParameterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EC06501CAF84C4000CD0E4 /* ParameterCell.swift */; };
+		89F6F0721CB08CE0001A284F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F6F0711CB08CE0001A284F /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +55,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		89829BE41CAF579A00BC28C1 /* cornStock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cornStock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89299E3B1CB05C7300DCDD3F /* AddWatchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddWatchTableViewController.swift; path = ../AddWatchTableViewController.swift; sourceTree = "<group>"; };
+		893146DC1CAF6BA1001A2B44 /* AlgorithmsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmsTableViewController.swift; sourceTree = "<group>"; };
+		893146DE1CAF6C11001A2B44 /* AlgorithmsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmsNavigationController.swift; sourceTree = "<group>"; };
+		89829BE41CAF579A00BC28C1 /* stockTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stockTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89829BE71CAF579A00BC28C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89829BE91CAF579A00BC28C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89829BEC1CAF579A00BC28C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89829BEF1CAF579A00BC28C1 /* cornStock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cornStock.xcdatamodel; sourceTree = "<group>"; };
 		89829BF11CAF579B00BC28C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89829BF41CAF579B00BC28C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89829BF61CAF579B00BC28C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89829BFB1CAF579B00BC28C1 /* cornStockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cornStockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89829BFB1CAF579B00BC28C1 /* stockTalk.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stockTalk.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89829BFF1CAF579B00BC28C1 /* cornStockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cornStockTests.swift; sourceTree = "<group>"; };
 		89829C011CAF579B00BC28C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89829C061CAF579B00BC28C1 /* cornStockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cornStockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89829C061CAF579B00BC28C1 /* stockTalk.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stockTalk.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89829C0A1CAF579B00BC28C1 /* cornStockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cornStockUITests.swift; sourceTree = "<group>"; };
 		89829C0C1CAF579B00BC28C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898DA9AD1CAF8AE100C9D854 /* Parameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		898DA9B41CAF927400C9D854 /* stockTalk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "stockTalk-Bridging-Header.h"; sourceTree = "<group>"; };
+		898DA9B51CAF927500C9D854 /* BEMAverageLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAverageLine.h; sourceTree = "<group>"; };
+		898DA9B61CAF927500C9D854 /* BEMAverageLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAverageLine.m; sourceTree = "<group>"; };
+		898DA9B71CAF927500C9D854 /* BEMCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCircle.h; sourceTree = "<group>"; };
+		898DA9B81CAF927500C9D854 /* BEMCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCircle.m; sourceTree = "<group>"; };
+		898DA9B91CAF927500C9D854 /* BEMLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMLine.h; sourceTree = "<group>"; };
+		898DA9BA1CAF927500C9D854 /* BEMLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMLine.m; sourceTree = "<group>"; };
+		898DA9BB1CAF927500C9D854 /* BEMPermanentPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPermanentPopupView.h; sourceTree = "<group>"; };
+		898DA9BC1CAF927500C9D854 /* BEMPermanentPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMPermanentPopupView.m; sourceTree = "<group>"; };
+		898DA9BD1CAF927500C9D854 /* BEMSimpleLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMSimpleLineGraphView.h; sourceTree = "<group>"; };
+		898DA9BE1CAF927500C9D854 /* BEMSimpleLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMSimpleLineGraphView.m; sourceTree = "<group>"; };
+		898DA9C51CAF9CBB00C9D854 /* DataDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataDownloader.swift; sourceTree = "<group>"; };
+		898DA9C71CAFA18700C9D854 /* Watch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
+		898DA9CA1CAFA37200C9D854 /* WatchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchTableViewController.swift; sourceTree = "<group>"; };
+		898DA9CC1CB0451C00C9D854 /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		89C7D5511CAF6E9400441057 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		89C7D5541CAF6F2600441057 /* Algorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		89C7D5561CAF70F700441057 /* Algorithm.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Algorithm.storyboard; sourceTree = "<group>"; };
+		89C7D55A1CAF727600441057 /* AlgorithmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
+		89C7D55C1CAF7CB100441057 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		89C7D55E1CAF7D7E00441057 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		89EC06501CAF84C4000CD0E4 /* ParameterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterCell.swift; sourceTree = "<group>"; };
+		89F6F0711CB08CE0001A284F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,37 +122,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		893146D91CAF6A69001A2B44 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				89C7D55C1CAF7CB100441057 /* Add.storyboard */,
+				89829BEB1CAF579A00BC28C1 /* Main.storyboard */,
+				89C7D5561CAF70F700441057 /* Algorithm.storyboard */,
+				89829BF31CAF579B00BC28C1 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		893146DA1CAF6A6F001A2B44 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				89299E3B1CB05C7300DCDD3F /* AddWatchTableViewController.swift */,
+				893146DC1CAF6BA1001A2B44 /* AlgorithmsTableViewController.swift */,
+				898DA9CA1CAFA37200C9D854 /* WatchTableViewController.swift */,
+				89C7D55E1CAF7D7E00441057 /* AddViewController.swift */,
+				89C7D55A1CAF727600441057 /* AlgorithmViewController.swift */,
+				893146DE1CAF6C11001A2B44 /* AlgorithmsNavigationController.swift */,
+				89F6F0711CB08CE0001A284F /* SettingsViewController.swift */,
+				898DA9CC1CB0451C00C9D854 /* CustomViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		893146DB1CAF6A88001A2B44 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				89829BE71CAF579A00BC28C1 /* AppDelegate.swift */,
+				89C7D5541CAF6F2600441057 /* Algorithm.swift */,
+				898DA9C71CAFA18700C9D854 /* Watch.swift */,
+				89C7D5511CAF6E9400441057 /* Model.swift */,
+				89EC06501CAF84C4000CD0E4 /* ParameterCell.swift */,
+				898DA9AD1CAF8AE100C9D854 /* Parameter.swift */,
+				898DA9C51CAF9CBB00C9D854 /* DataDownloader.swift */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		89829BDB1CAF579A00BC28C1 = {
 			isa = PBXGroup;
 			children = (
-				89829BE61CAF579A00BC28C1 /* cornStock */,
+				898DA9C41CAF928A00C9D854 /* BEM(Objective-C) */,
+				89829BE61CAF579A00BC28C1 /* stockTalk */,
 				89829BFE1CAF579B00BC28C1 /* cornStockTests */,
 				89829C091CAF579B00BC28C1 /* cornStockUITests */,
 				89829BE51CAF579A00BC28C1 /* Products */,
+				898DA9B41CAF927400C9D854 /* stockTalk-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
 		89829BE51CAF579A00BC28C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89829BE41CAF579A00BC28C1 /* cornStock.app */,
-				89829BFB1CAF579B00BC28C1 /* cornStockTests.xctest */,
-				89829C061CAF579B00BC28C1 /* cornStockUITests.xctest */,
+				89829BE41CAF579A00BC28C1 /* stockTalk.app */,
+				89829BFB1CAF579B00BC28C1 /* stockTalk.xctest */,
+				89829C061CAF579B00BC28C1 /* stockTalk.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		89829BE61CAF579A00BC28C1 /* cornStock */ = {
+		89829BE61CAF579A00BC28C1 /* stockTalk */ = {
 			isa = PBXGroup;
 			children = (
-				89829BE71CAF579A00BC28C1 /* AppDelegate.swift */,
-				89829BE91CAF579A00BC28C1 /* ViewController.swift */,
-				89829BEB1CAF579A00BC28C1 /* Main.storyboard */,
+				893146DB1CAF6A88001A2B44 /* SupportingFiles */,
+				893146DA1CAF6A6F001A2B44 /* ViewControllers */,
+				893146D91CAF6A69001A2B44 /* Storyboards */,
 				89829BF11CAF579B00BC28C1 /* Assets.xcassets */,
-				89829BF31CAF579B00BC28C1 /* LaunchScreen.storyboard */,
 				89829BF61CAF579B00BC28C1 /* Info.plist */,
 				89829BEE1CAF579A00BC28C1 /* cornStock.xcdatamodeld */,
 			);
+			name = stockTalk;
 			path = cornStock;
 			sourceTree = "<group>";
 		};
@@ -128,12 +216,29 @@
 			path = cornStockUITests;
 			sourceTree = "<group>";
 		};
+		898DA9C41CAF928A00C9D854 /* BEM(Objective-C) */ = {
+			isa = PBXGroup;
+			children = (
+				898DA9B51CAF927500C9D854 /* BEMAverageLine.h */,
+				898DA9B61CAF927500C9D854 /* BEMAverageLine.m */,
+				898DA9B71CAF927500C9D854 /* BEMCircle.h */,
+				898DA9B81CAF927500C9D854 /* BEMCircle.m */,
+				898DA9B91CAF927500C9D854 /* BEMLine.h */,
+				898DA9BA1CAF927500C9D854 /* BEMLine.m */,
+				898DA9BB1CAF927500C9D854 /* BEMPermanentPopupView.h */,
+				898DA9BC1CAF927500C9D854 /* BEMPermanentPopupView.m */,
+				898DA9BD1CAF927500C9D854 /* BEMSimpleLineGraphView.h */,
+				898DA9BE1CAF927500C9D854 /* BEMSimpleLineGraphView.m */,
+			);
+			name = "BEM(Objective-C)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89829BE31CAF579A00BC28C1 /* cornStock */ = {
+		89829BE31CAF579A00BC28C1 /* stockTalk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89829C0F1CAF579B00BC28C1 /* Build configuration list for PBXNativeTarget "cornStock" */;
+			buildConfigurationList = 89829C0F1CAF579B00BC28C1 /* Build configuration list for PBXNativeTarget "stockTalk" */;
 			buildPhases = (
 				89829BE01CAF579A00BC28C1 /* Sources */,
 				89829BE11CAF579A00BC28C1 /* Frameworks */,
@@ -143,14 +248,14 @@
 			);
 			dependencies = (
 			);
-			name = cornStock;
+			name = stockTalk;
 			productName = cornStock;
-			productReference = 89829BE41CAF579A00BC28C1 /* cornStock.app */;
+			productReference = 89829BE41CAF579A00BC28C1 /* stockTalk.app */;
 			productType = "com.apple.product-type.application";
 		};
-		89829BFA1CAF579B00BC28C1 /* cornStockTests */ = {
+		89829BFA1CAF579B00BC28C1 /* stockTalkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89829C121CAF579B00BC28C1 /* Build configuration list for PBXNativeTarget "cornStockTests" */;
+			buildConfigurationList = 89829C121CAF579B00BC28C1 /* Build configuration list for PBXNativeTarget "stockTalkTests" */;
 			buildPhases = (
 				89829BF71CAF579B00BC28C1 /* Sources */,
 				89829BF81CAF579B00BC28C1 /* Frameworks */,
@@ -161,14 +266,14 @@
 			dependencies = (
 				89829BFD1CAF579B00BC28C1 /* PBXTargetDependency */,
 			);
-			name = cornStockTests;
+			name = stockTalkTests;
 			productName = cornStockTests;
-			productReference = 89829BFB1CAF579B00BC28C1 /* cornStockTests.xctest */;
+			productReference = 89829BFB1CAF579B00BC28C1 /* stockTalk.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		89829C051CAF579B00BC28C1 /* cornStockUITests */ = {
+		89829C051CAF579B00BC28C1 /* stockTalkUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89829C151CAF579B00BC28C1 /* Build configuration list for PBXNativeTarget "cornStockUITests" */;
+			buildConfigurationList = 89829C151CAF579B00BC28C1 /* Build configuration list for PBXNativeTarget "stockTalkUITests" */;
 			buildPhases = (
 				89829C021CAF579B00BC28C1 /* Sources */,
 				89829C031CAF579B00BC28C1 /* Frameworks */,
@@ -179,9 +284,9 @@
 			dependencies = (
 				89829C081CAF579B00BC28C1 /* PBXTargetDependency */,
 			);
-			name = cornStockUITests;
+			name = stockTalkUITests;
 			productName = cornStockUITests;
-			productReference = 89829C061CAF579B00BC28C1 /* cornStockUITests.xctest */;
+			productReference = 89829C061CAF579B00BC28C1 /* stockTalk.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +312,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89829BDF1CAF579A00BC28C1 /* Build configuration list for PBXProject "cornStock" */;
+			buildConfigurationList = 89829BDF1CAF579A00BC28C1 /* Build configuration list for PBXProject "stockTalk" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +325,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89829BE31CAF579A00BC28C1 /* cornStock */,
-				89829BFA1CAF579B00BC28C1 /* cornStockTests */,
-				89829C051CAF579B00BC28C1 /* cornStockUITests */,
+				89829BE31CAF579A00BC28C1 /* stockTalk */,
+				89829BFA1CAF579B00BC28C1 /* stockTalkTests */,
+				89829C051CAF579B00BC28C1 /* stockTalkUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,6 +339,8 @@
 			files = (
 				89829BF51CAF579B00BC28C1 /* LaunchScreen.storyboard in Resources */,
 				89829BF21CAF579B00BC28C1 /* Assets.xcassets in Resources */,
+				89C7D55D1CAF7CB100441057 /* Add.storyboard in Resources */,
+				89C7D5571CAF70F700441057 /* Algorithm.storyboard in Resources */,
 				89829BED1CAF579A00BC28C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +366,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89829BEA1CAF579A00BC28C1 /* ViewController.swift in Sources */,
+				89C7D5551CAF6F2600441057 /* Algorithm.swift in Sources */,
+				898DA9C61CAF9CBB00C9D854 /* DataDownloader.swift in Sources */,
+				89F6F0721CB08CE0001A284F /* SettingsViewController.swift in Sources */,
+				89C7D55F1CAF7D7E00441057 /* AddViewController.swift in Sources */,
+				898DA9C21CAF927500C9D854 /* BEMPermanentPopupView.m in Sources */,
 				89829BF01CAF579A00BC28C1 /* cornStock.xcdatamodeld in Sources */,
+				898DA9C11CAF927500C9D854 /* BEMLine.m in Sources */,
+				898DA9C81CAFA18700C9D854 /* Watch.swift in Sources */,
+				898DA9C31CAF927500C9D854 /* BEMSimpleLineGraphView.m in Sources */,
 				89829BE81CAF579A00BC28C1 /* AppDelegate.swift in Sources */,
+				898DA9C01CAF927500C9D854 /* BEMCircle.m in Sources */,
+				89299E3C1CB05C7300DCDD3F /* AddWatchTableViewController.swift in Sources */,
+				89C7D5521CAF6E9400441057 /* Model.swift in Sources */,
+				893146DF1CAF6C11001A2B44 /* AlgorithmsNavigationController.swift in Sources */,
+				898DA9CD1CB0451C00C9D854 /* CustomViewController.swift in Sources */,
+				89C7D55B1CAF727600441057 /* AlgorithmViewController.swift in Sources */,
+				893146DD1CAF6BA1001A2B44 /* AlgorithmsTableViewController.swift in Sources */,
+				898DA9AE1CAF8AE100C9D854 /* Parameter.swift in Sources */,
+				898DA9BF1CAF927500C9D854 /* BEMAverageLine.m in Sources */,
+				898DA9CB1CAFA37200C9D854 /* WatchTableViewController.swift in Sources */,
+				89EC06511CAF84C4000CD0E4 /* ParameterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +411,12 @@
 /* Begin PBXTargetDependency section */
 		89829BFD1CAF579B00BC28C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 89829BE31CAF579A00BC28C1 /* cornStock */;
+			target = 89829BE31CAF579A00BC28C1 /* stockTalk */;
 			targetProxy = 89829BFC1CAF579B00BC28C1 /* PBXContainerItemProxy */;
 		};
 		89829C081CAF579B00BC28C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 89829BE31CAF579A00BC28C1 /* cornStock */;
+			target = 89829BE31CAF579A00BC28C1 /* stockTalk */;
 			targetProxy = 89829C071CAF579B00BC28C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -403,10 +528,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = cornStock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaredweinstein.cornStock;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaredweinstein.stockTalk;
+				PRODUCT_NAME = stockTalk;
+				SWIFT_OBJC_BRIDGING_HEADER = "stockTalk-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -414,10 +542,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = cornStock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaredweinstein.cornStock;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaredweinstein.stockTalk;
+				PRODUCT_NAME = stockTalk;
+				SWIFT_OBJC_BRIDGING_HEADER = "stockTalk-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -428,8 +558,8 @@
 				INFOPLIST_FILE = cornStockTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jaredweinstein.cornStockTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cornStock.app/cornStock";
+				PRODUCT_NAME = stockTalk;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stockTalk.app/stockTalk";
 			};
 			name = Debug;
 		};
@@ -440,8 +570,8 @@
 				INFOPLIST_FILE = cornStockTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jaredweinstein.cornStockTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cornStock.app/cornStock";
+				PRODUCT_NAME = stockTalk;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stockTalk.app/stockTalk";
 			};
 			name = Release;
 		};
@@ -451,7 +581,7 @@
 				INFOPLIST_FILE = cornStockUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jaredweinstein.cornStockUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = stockTalk;
 				TEST_TARGET_NAME = cornStock;
 			};
 			name = Debug;
@@ -462,7 +592,7 @@
 				INFOPLIST_FILE = cornStockUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jaredweinstein.cornStockUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = stockTalk;
 				TEST_TARGET_NAME = cornStock;
 			};
 			name = Release;
@@ -470,7 +600,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89829BDF1CAF579A00BC28C1 /* Build configuration list for PBXProject "cornStock" */ = {
+		89829BDF1CAF579A00BC28C1 /* Build configuration list for PBXProject "stockTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89829C0D1CAF579B00BC28C1 /* Debug */,
@@ -479,29 +609,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89829C0F1CAF579B00BC28C1 /* Build configuration list for PBXNativeTarget "cornStock" */ = {
+		89829C0F1CAF579B00BC28C1 /* Build configuration list for PBXNativeTarget "stockTalk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89829C101CAF579B00BC28C1 /* Debug */,
 				89829C111CAF579B00BC28C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		89829C121CAF579B00BC28C1 /* Build configuration list for PBXNativeTarget "cornStockTests" */ = {
+		89829C121CAF579B00BC28C1 /* Build configuration list for PBXNativeTarget "stockTalkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89829C131CAF579B00BC28C1 /* Debug */,
 				89829C141CAF579B00BC28C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		89829C151CAF579B00BC28C1 /* Build configuration list for PBXNativeTarget "cornStockUITests" */ = {
+		89829C151CAF579B00BC28C1 /* Build configuration list for PBXNativeTarget "stockTalkUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89829C161CAF579B00BC28C1 /* Debug */,
 				89829C171CAF579B00BC28C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

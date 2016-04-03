@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:cornStock.xcodeproj">
+      location = "self:/Users/jaredweinstein/Documents/Programming/Xcode/cornStock/stockTalk.xcodeproj">
    </FileRef>
 </Workspace>

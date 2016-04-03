@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "89829BE31CAF579A00BC28C1"
-               BuildableName = "cornStock.app"
-               BlueprintName = "cornStock"
-               ReferencedContainer = "container:cornStock.xcodeproj">
+               BuildableName = "stockTalk.app"
+               BlueprintName = "stockTalk"
+               ReferencedContainer = "container:stockTalk.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "89829BFA1CAF579B00BC28C1"
-               BuildableName = "cornStockTests.xctest"
-               BlueprintName = "cornStockTests"
-               ReferencedContainer = "container:cornStock.xcodeproj">
+               BuildableName = "stockTalk.xctest"
+               BlueprintName = "stockTalkTests"
+               ReferencedContainer = "container:stockTalk.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "89829C051CAF579B00BC28C1"
-               BuildableName = "cornStockUITests.xctest"
-               BlueprintName = "cornStockUITests"
-               ReferencedContainer = "container:cornStock.xcodeproj">
+               BuildableName = "stockTalk.xctest"
+               BlueprintName = "stockTalkUITests"
+               ReferencedContainer = "container:stockTalk.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89829BE31CAF579A00BC28C1"
-            BuildableName = "cornStock.app"
-            BlueprintName = "cornStock"
-            ReferencedContainer = "container:cornStock.xcodeproj">
+            BuildableName = "stockTalk.app"
+            BlueprintName = "stockTalk"
+            ReferencedContainer = "container:stockTalk.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89829BE31CAF579A00BC28C1"
-            BuildableName = "cornStock.app"
-            BlueprintName = "cornStock"
-            ReferencedContainer = "container:cornStock.xcodeproj">
+            BuildableName = "stockTalk.app"
+            BlueprintName = "stockTalk"
+            ReferencedContainer = "container:stockTalk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89829BE31CAF579A00BC28C1"
-            BuildableName = "cornStock.app"
-            BlueprintName = "cornStock"
-            ReferencedContainer = "container:cornStock.xcodeproj">
+            BuildableName = "stockTalk.app"
+            BlueprintName = "stockTalk"
+            ReferencedContainer = "container:stockTalk.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
