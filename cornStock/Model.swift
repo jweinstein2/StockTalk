@@ -13,7 +13,7 @@ class Model : NSObject{
     var watchlist = [Watch]()
     var algorithms = [Algorithm]()
     var downloader = DataDownloader()
-    var defaultTicker = "AAPL"
+    var defaultTicker = "GOOG"
     
     //Singleton Init
     class var sharedInstance : Model {
@@ -30,7 +30,10 @@ class Model : NSObject{
         algorithms.append(Algorithm.init(title: "rando"))
         algorithms.append(Algorithm.init(title: "dchange"))
         algorithms.append(Algorithm.init(title: "dchange10"))
+        algorithms.append(Algorithm.init(title: "dchange1"))
         watchlist.append(Watch.init(ticker: "AMD", algorithm: algorithms[0]))
+        watchlist.append(Watch.init(ticker: "AMD", algorithm: algorithms[4]))
+        watchlist.append(Watch.init(ticker: "CPRX", algorithm: algorithms[4]))
         watchlist.append(Watch.init(ticker: "MRNS", algorithm: algorithms[1]))
         watchlist.append(Watch.init(ticker: "AAPL", algorithm: algorithms[2]))
         watchlist.append(Watch.init(ticker: "GOOG", algorithm: algorithms[3]))

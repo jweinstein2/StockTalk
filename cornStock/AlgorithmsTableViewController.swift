@@ -43,9 +43,19 @@ class AlgorithmsTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: "algorithmCell")
+        let cell:UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "algorithmCell")
         cell.backgroundColor = UIColor.clearColor()
         cell.textLabel!.text = Model.sharedInstance.algorithms[indexPath.row].title
+        cell.textLabel!.numberOfLines = 2
+        var myFont = UIFont.init(name: "Avenir", size: 18.0)
+        cell.textLabel!.font  = myFont;
+        myFont = UIFont.init(name: "Avenir", size: 14.0)
+        cell.detailTextLabel!.font  = myFont;
+        cell.detailTextLabel!.textColor = UIColor.init(red: 70/255, green: 70/255, blue: 70/255, alpha: 1)
+        cell.detailTextLabel?.numberOfLines = 0
+        cell.detailTextLabel!.lineBreakMode = .ByWordWrapping
+        cell.detailTextLabel!.text = Model.sharedInstance.algorithms[indexPath.row].descript
+        
         cell.textLabel!.textColor = UIColor.whiteColor()
         return cell
     }
@@ -64,7 +74,7 @@ class AlgorithmsTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return 60
+        return 145
     }
     
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
@@ -88,6 +98,10 @@ class AlgorithmsTableViewController: UITableViewController {
         NSLog("SEGUE")
         let dest = segue.destinationViewController as! AddViewController
         dest.parent = self
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.tableView.reloadData()
     }
 }
 

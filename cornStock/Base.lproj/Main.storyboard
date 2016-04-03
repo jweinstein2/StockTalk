@@ -118,11 +118,11 @@
             </objects>
             <point key="canvasLocation" x="1563.5" y="-393.5"/>
         </scene>
-        <!--Watchlist-->
+        <!--Navigation Controller-->
         <scene sceneID="c8T-2d-3B2">
             <objects>
                 <navigationController id="yxR-ir-Bw4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Watchlist" id="WfC-gX-s4T"/>
+                    <tabBarItem key="tabBarItem" title="" image="watchlist" id="WfC-gX-s4T"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="a55-Fi-en0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -171,11 +171,13 @@
             </objects>
             <point key="canvasLocation" x="972" y="417"/>
         </scene>
-        <!--Algorithms-->
+        <!--Algorithms Navigation Controller-->
         <scene sceneID="XAN-5M-ZcI">
             <objects>
                 <navigationController id="VVD-gZ-DHu" customClass="AlgorithmsNavigationController" customModule="stockTalk" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Algorithms" id="DHj-Ca-NjH"/>
+                    <tabBarItem key="tabBarItem" title="" image="algorithm" id="DHj-Ca-NjH">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6Lk-fc-gQT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -204,14 +206,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loading humorous message... please wait." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQo-AI-tyM">
-                                <rect key="frame" x="26" y="201" width="323" height="24"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loading ..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQo-AI-tyM">
+                                <rect key="frame" x="107" y="175" width="160" height="45"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="30"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9TE-4O-iLI">
-                                <rect key="frame" x="138" y="412" width="98" height="30"/>
+                                <rect key="frame" x="131" y="318" width="112" height="32"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="21"/>
                                 <state key="normal" title="continue &gt;">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -231,11 +234,11 @@
             </objects>
             <point key="canvasLocation" x="-1462.5" y="416.5"/>
         </scene>
-        <!--Settings-->
+        <!--Navigation Controller-->
         <scene sceneID="qVX-71-jsL">
             <objects>
                 <navigationController id="4OT-Yq-DOA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" id="nAI-3Q-vvA"/>
+                    <tabBarItem key="tabBarItem" title="" image="settings" id="nAI-3Q-vvA"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Zf-yO-uUh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -277,7 +280,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="AAPL" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dyv-pH-EUj">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="AAPL" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dyv-pH-EUj">
                                 <rect key="frame" x="225" y="116" width="97" height="30"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -301,4 +304,9 @@
             <point key="canvasLocation" x="965.5" y="1285.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="algorithm" width="30" height="30"/>
+        <image name="settings" width="30" height="30"/>
+        <image name="watchlist" width="30" height="30"/>
+    </resources>
 </document>

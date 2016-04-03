@@ -60,9 +60,9 @@ class WatchTableViewController: UITableViewController{
     //Customize the Cell
     override func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
         if(Model.sharedInstance.watchlist[indexPath.row].algorithm.isHoldPeriod()){
-            cell.textLabel!.textColor = UIColor.redColor()
+            cell.textLabel!.textColor = UIColor.init(red: 192/255, green: 80/255, blue: 77/255, alpha: 1)
         }else{
-            cell.textLabel!.textColor = UIColor.greenColor()
+            cell.textLabel!.textColor = UIColor.init(red: 155/255, green: 187/255, blue: 89/255, alpha: 1)
         }
         if(Model.sharedInstance.watchlist[indexPath.row].algorithm.shouldBuy()){
             cell.detailTextLabel!.text = "buy"

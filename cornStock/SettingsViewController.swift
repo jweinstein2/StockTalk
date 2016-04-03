@@ -22,7 +22,13 @@ class SettingsViewController: UIViewController, UITextFieldDelegate{
     }
     
     @IBAction func editingFinished(sender: UITextField) {
+        if(Model.sharedInstance.defaultTicker != sender.text!){
+            for algorithm in Model.sharedInstance.algorithms{
+                algorithm.needsReload = true
+            }
+        }
         Model.sharedInstance.defaultTicker = sender.text!
+
     }
 }
 
