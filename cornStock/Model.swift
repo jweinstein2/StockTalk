@@ -37,9 +37,9 @@ class Model : NSObject{
         watchlist.append(Watch.init(ticker: "MRNS", algorithm: algorithms[1]))
         watchlist.append(Watch.init(ticker: "AAPL", algorithm: algorithms[2]))
         watchlist.append(Watch.init(ticker: "GOOG", algorithm: algorithms[3]))
-        //downloader.downloadJSON("https://stocktalk-dduan97.c9users.io/test", notification: "Algorithm 1")
-        //downloader.downloadJSON("https://stocktalk-dduan97.c9users.io/test", notification: "Algorithm 2")
-        //downloader.downloadJSON("https://stocktalk-dduan97.c9users.io/test", notification: "Algorithm 3")
-        //downloader.downloadJSON("https://stocktalk-dduan97.c9users.io/test", notification: "Algorithm 4")
+        //downloader.downloadJSON("https://stocktrak.herokuapp.com/test", notification: "Algorithm 1")
+        //downloader.downloadJSON("https://stocktrak.herokuapp.com/test", notification: "Algorithm 2")
+        //downloader.downloadJSON("https://stocktrak.herokuapp.com/test", notification: "Algorithm 3")
+        //downloader.downloadJSON("https://stocktrak.herokuapp.com/test", notification: "Algorithm 4")
     }
 }

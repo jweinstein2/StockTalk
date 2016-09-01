@@ -28,7 +28,7 @@ class Algorithm : NSObject{
         self.title = title
         needsReload = false
         kNotification = self.title
-        Model.sharedInstance.downloader.downloadJSON("https://stocktalk-dduan97.c9users.io/t/" + Model.sharedInstance.defaultTicker + "/a/" + self.title, notification: kNotification)
+        Model.sharedInstance.downloader.downloadJSON("https://stocktrak.herokuapp.com/t/" + Model.sharedInstance.defaultTicker + "/a/" + self.title, notification: kNotification)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(self.dataUpdated(_:)), name: kNotification, object: nil)
     }
     
@@ -90,7 +90,7 @@ class Algorithm : NSObject{
     func reload(){
         self.isLoaded = false
         kNotification = self.title
-        Model.sharedInstance.downloader.downloadJSON("https://stocktalk-dduan97.c9users.io/t/" + Model.sharedInstance.defaultTicker + "/a/" + self.title, notification: kNotification)
+        Model.sharedInstance.downloader.downloadJSON("https://stocktrak.herokuapp.com/t/" + Model.sharedInstance.defaultTicker + "/a/" + self.title, notification: kNotification)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(self.dataUpdated(_:)), name: kNotification, object: nil)
     }
 }
